@@ -2,48 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="btsp/bootstrap.min.css">
+   <link rel="stylesheet" href="btsp/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
-  <title>HT/TTC</title>
+  <title>Document</title>
 </head>
 <body>
- <div class="row">
-    <div class="col-lg-12 pr">
-    <h1>CONVERTISSEUR HT/TTC</h1>
+
+
+
+  <div class="jumbotron t">
+    <div class="container">
+      <h1 class="tt">Convertisseur HT/TTC</h1>
+        <br>
+        <br>
+      <div class="row rr">
+        <div class="col-sm-12 col-md-4">
+          <div class="input-group ig">
+            <span class="input-group-addon">Pour une tva de</span>
+            <input type="number" step="0.01" min="0" max="100" class="form-control" id="tva" aria-label="Amount (to the nearest dollar)">
+            <span class="input-group-addon">%</span>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4">
+          <div class="input-group ig">
+            <span class="input-group-addon">convertir</span>
+            <input type="number" step="0.01" class="form-control" id="val" aria-label="Amount (to the nearest dollar)">
+            <span class="input-group-addon">€</span>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4">
+
+            <div class="form-group" >
+
+                <label class="unit unite">Default</label>
+              <select class="form-control unit" id="unit">
+                <option>HT</option>
+                <option>TTC</option>
+              </select>
+              <button type="button" class="btn btn-primary unit" id="bt">Go</button>
+            </div>
+
+        </div>
+      </div>
     </div>
   </div>
-<div class="row">
+<div class="container-fluid" id="resultats">
 
-   <div class="row">
-   <div class="col-xs-1"></div>
-   <div class="col-xs-10 rect">
-    <div class="col-lg-1 col-xs-2 col-sm-2"></div>
-    <div class="col-lg-3 col-xs-7 col-sm-7 rect1">
-       <div class="input-group">
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HT <span class="caret"></span></button>
-        <ul class="dropdown-menu">
-          <li><a href="#">HT</a></li>
-          <li><a href="#">TTC</a></li>
-        </ul>
-      </div><!-- /btn-group -->
-      <input type="text" class="form-control" aria-label="...">
-    </div><!-- /input-group -->
-    </div><!-- /.col-lg-6 -->
-    <div class="col-lg-2 col-xs-3 col-sm-3 col rst"><h1><label for="resultat">€TTC</label></h1></div>
-     <!-- =======================================================s -->
-    <div class="col-lg-1 col-xs-4 col-sm-4 col"></div>
-    <div class="col-lg-4  col-xs-6 col-sm-6  rect2">
-      <h1><label for="resultat">45.21</label> €HT</h1>
+    <div class="row entt">
+      <div class="col-sm-1 col-xs-0 r">
+          NB
+      </div>
+      <div class="col-sm-2 col-xs-3">
+        TVA %
+      </div>
+      <div class="col-sm-3 col-xs-3">
+        Valeur
+      </div>
+      <div class="col-sm-3 col-xs-3">
+        Unitée
+      </div>
+      <div class="col-sm-3 col-xs-3">
+        Resultat
+      </div>
     </div>
-    <div class="col-lg-1  col-xs-2 col-sm-2"></div>
-  </div>
-  <div class="col-xs-1"></div>
-</div><!-- /.row -->
-</div>
 
-<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="bootstrap.min.js"></script>
+
+  </div>
+<script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>
+
+
