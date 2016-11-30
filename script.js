@@ -1,5 +1,12 @@
 conv={val:0,tva:0, unit:"HT", rslt:""};
-i=0;
+j=0;
+
+
+
+
+
+
+
 
 
 bt=document.getElementById('bt')
