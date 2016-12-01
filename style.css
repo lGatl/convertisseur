@@ -54,7 +54,8 @@ padding-top:8px;
 
 @media screen and (max-width: 768px){
   .r{display:none;}
-  .entt, .rst1, .rst{
-    font-size: 1.1em;
+  .rst1,.rst{
+    font-size: 0.8em;
   }
+  .entt{font-size: 1.1em;}
 }
