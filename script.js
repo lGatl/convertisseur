@@ -1,5 +1,5 @@
 conv={val:0,tva:0, unit:"HT", rslt:""};
-j=0;
+i=0;
 
 
 
