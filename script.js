@@ -70,11 +70,11 @@ divim.className = 'row rst';
 }
 
 
-cont(i,i,0,1," r")
-cont(conv.tva,i,3,2,"")
-cont(conv.val,i,3,3,"")
-cont(conv.unit,i,3,3,"")
-cont(conv.reslt,i,3,3,"")
+cont(i,i,0,3," r")
+cont(conv.tva,i,4,3,"")
+cont(conv.val+" "+conv.unit,i,4,3,"")
+/*cont(conv.unit,i,3,3,"")*/
+cont(conv.reslt,i,4,3,"")
 }
 
 function cont(txt,i,c1,c2,r){
