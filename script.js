@@ -1,5 +1,7 @@
-conv = {val:0 ,tva:0, unit:"HT", rslt:""};/*contiendra toutes les données*/
-i = 0;/*comptera le nombre de calcul*/
+(function(){
+
+var conv = {val:0 ,tva:0, unit:"HT", rslt:""};/*contiendra toutes les données*/
+var i = 0;/*comptera le nombre de calcul*/
 
 var G = function(param){/*pour selectionner des elements plus rapidement*/
    var premier_caractere, element;
@@ -100,7 +102,7 @@ alert("qu'il n'y a rien de spé à la fin :p");
 }, true);
 };
 
-
+})()
 
 
 
