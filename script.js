@@ -1,4 +1,4 @@
-(function(){
+(function(){ /*assuront nous que les variables ne sortent ps d'ici*/
 
 var conv = {val:0 ,tva:0, unit:"HT", rslt:""};/*contiendra toutes les données*/
 var i = 0;/*comptera le nombre de calcul*/
